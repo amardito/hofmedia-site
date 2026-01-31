@@ -45,7 +45,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // Navbar scroll effect
-let lastScroll = 0;
 const navbar = document.querySelector('.navbar');
 
 window.addEventListener('scroll', () => {
@@ -56,8 +55,6 @@ window.addEventListener('scroll', () => {
     } else {
         navbar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
     }
-    
-    lastScroll = currentScroll;
 });
 
 // Form submission handling
@@ -66,10 +63,11 @@ const contactForm = document.querySelector('.contact-form');
 contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
     
-    // Get form data
-    const formData = new FormData(contactForm);
+    // In a real application, form data would be sent to a server here
+    // const formData = new FormData(contactForm);
+    // await fetch('/api/contact', { method: 'POST', body: formData });
     
-    // Show success message (in a real app, you'd send this to a server)
+    // Show success message
     alert('Thank you for your message! We will get back to you soon.');
     
     // Reset form

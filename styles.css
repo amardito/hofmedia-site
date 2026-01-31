@@ -369,6 +369,13 @@ body {
     margin-bottom: 20px;
 }
 
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--dark-color);
+}
+
 .form-group input,
 .form-group textarea {
     width: 100%;
