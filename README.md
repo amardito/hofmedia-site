@@ -1,93 +1,66 @@
-# Hofmedia Site
+# Hofmedia - Company Landing Page
 
-A modern landing page built with Next.js, TypeScript, and Tailwind CSS.
+A modern, responsive landing page for Hofmedia showcasing our innovative products and services.
 
-## Overview
+## About Hofmedia
 
-This is a static landing page for Hofmedia, showcasing services and company information. The site is built using Next.js with static export functionality, making it perfect for hosting on any static hosting platform.
-
-## Tech Stack
-
-- **Next.js 16** - React framework for production
-- **TypeScript** - Type-safe JavaScript
-- **Tailwind CSS** - Utility-first CSS framework
-- **React 19** - UI library
+Hofmedia is a dynamic company offering comprehensive solutions across multiple industries:
+- **Food Online** - Delicious meals delivered to your doorstep
+- **Business Consulting & IT Solutions** - Expert consulting and cutting-edge IT services
+- **Clothing Pre-Order** - Exclusive fashion pieces available for pre-order
+- **More Coming Soon** - Stay tuned for exciting new products
 
 ## Features
 
-- ✅ Fully responsive design
-- ✅ Dark mode support
-- ✅ Static site generation (no backend required)
-- ✅ SEO optimized
-- ✅ Fast performance
-- ✅ Modern UI with Tailwind CSS
+- 🎨 Modern, clean design
+- 📱 Fully responsive (mobile, tablet, desktop)
+- ⚡ Fast loading and optimized performance
+- 🎭 Smooth animations and transitions
+- 📧 Contact form for inquiries
+- 🔍 SEO-friendly structure
 
-## Getting Started
+## How to Use
 
-### Prerequisites
+Simply open `index.html` in your web browser to view the landing page.
 
-- Node.js 18.x or higher
-- npm or yarn
+### Running Locally
 
-### Installation
+1. Clone the repository
+2. Open `index.html` in any modern web browser
+3. No build process or dependencies required!
 
-```bash
-# Install dependencies
-npm install
-```
+### Deploying
 
-### Development
-
-```bash
-# Run development server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
-
-### Build
-
-```bash
-# Create production build
-npm run build
-```
-
-This will generate a static export in the `out/` directory that can be deployed to any static hosting service.
-
-### Lint
-
-```bash
-# Run ESLint
-npm run lint
-```
-
-## Deployment
-
-The site is configured with `output: 'export'` in `next.config.ts`, which means it generates a fully static site. You can deploy the contents of the `out/` directory to:
-
+This is a static website that can be deployed to any web hosting service:
 - GitHub Pages
 - Netlify
 - Vercel
-- Any static hosting service
+- AWS S3
+- Any traditional web host
 
-## Project Structure
+## Structure
 
 ```
 hofmedia-site/
-├── app/
-│   ├── globals.css       # Global styles with Tailwind
-│   ├── layout.tsx        # Root layout component
-│   └── page.tsx          # Home page component
-├── public/               # Static assets
-├── .eslintrc.json        # ESLint configuration
-├── .gitignore           # Git ignore rules
-├── next.config.ts       # Next.js configuration
-├── package.json         # Project dependencies
-├── postcss.config.mjs   # PostCSS configuration
-├── tailwind.config.ts   # Tailwind CSS configuration
-└── tsconfig.json        # TypeScript configuration
+├── index.html      # Main HTML file
+├── styles.css      # All styling
+├── script.js       # JavaScript functionality
+└── README.md       # This file
 ```
+
+## Technologies Used
+
+- HTML5
+- CSS3 (with CSS Grid and Flexbox)
+- Vanilla JavaScript (no frameworks required)
+
+## Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
 
 ## License
 
-ISC
+© 2026 Hofmedia. All rights reserved.
